@@ -1,0 +1,35 @@
+#citySelect {
+    /* overflow: hidden;
+    overflow-block: hidden; */
+  
+   height: auto;
+   
+  }
+  /* Pour Firefox */
+  /* Style de la barre de défilement */
+  .container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 10px;
+      justify-content: center;
+      width: 100%;
+  }
+  .container > input, select, div {
+      width: 80%;
+  }
+
+  #toggleButton {
+    background-color: #ccc;
+    border: none;
+    color: #000;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
